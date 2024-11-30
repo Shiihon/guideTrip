@@ -1,0 +1,115 @@
+h1 {
+text-align: center;
+color: #444;
+margin-bottom: 20px;
+padding-bottom: 10px;
+border-bottom: 2px solid #ddd; /* Adds the line */
+}
+
+.trip-list {
+  width: 30%;
+  float: left;
+  padding: 20px;
+}
+
+.trip-item {
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.trip-item:hover {
+  background-color: #f1f1f1;
+}
+
+.trip-details {
+  width: 65%;
+  float: left;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.trip-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trip-details td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+
+/* Styling for the dropdown */
+select {
+  display: block;
+  margin: 20px auto; /* Centers the dropdown */
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #444;
+  outline: none;
+  text-align:left; /* Centers the text inside */
+  transition: all 0.3s ease;
+}
+
+/* Hover and focus effects for the dropdown */
+select:hover,
+select:focus {
+  border-color: #bbb;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the table */
+.trip-details table {
+  width: 100%;
+  border-collapse: collapse; /* Merges borders of adjacent cells */
+  margin-top: 10px;
+  font-size: 16px;
+  border: none; /* Removes the outer border */
+  margin-bottom: 10px;
+}
+
+/* Table header styling */
+.trip-details th {
+  text-align: left;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ddd; /* Keeps the cell borders */
+  font-weight: bold;
+}
+
+/* Table cell styling */
+.trip-details td {
+  padding: 10px;
+  border: 1px solid #ddd; /* Keeps the cell borders */
+}
+
+/* Alternating row colors */
+.trip-details tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+.trip-details tr:nth-child(odd) td {
+  background-color: #ffffff;
+}
+
+/* Adding hover effect on rows */
+.trip-details tr:hover td {
+  background-color: #f1f1f1;
+}
+
+/* Align the text in the table */
+.trip-details td,
+.trip-details th {
+  text-align: left;
+}
