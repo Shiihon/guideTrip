@@ -4,7 +4,6 @@ import facade from "./util/apiFacade";
 import "./App.css";
 /* Components */
 import Header from "./components/Header";
-import LogIn from "./components/LogIn";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(facade.loggedIn());
